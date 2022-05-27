@@ -1,0 +1,45 @@
+ html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    border: 5px solid white;
+  }
+    #scor  {
+    position: fixed;
+    bottom: 0;
+    text-align:center;
+}
+
+      #start
+      {
+          position:fixed;
+          width: 400px;
+          height: 400px;
+          margin: auto;
+          background-image: url("butonstart.png");
+      }
+.alert {
+  padding: 10px;
+  background-color: #2196F3;
+  color: white;
+  margin-bottom: 15px;
+    text-align: center;
+    width:100%;
+}
+#closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+    cursor: pointer;
+}
